@@ -1,0 +1,329 @@
+
+
+body {
+    font-size: 22px;
+}
+    .inline {
+        display: inline;
+        background-color: lightblue;
+        font-size: 22px;
+    }
+    .block {
+        display: block;
+        width: 250px;
+        font-size: 22px;
+    }
+    .inline-block {
+        display: inline-block;
+
+        width: 150px;
+        margin-right: 10px;
+        line-height: 18px;
+        font-size: 22px;
+    }
+
+    .inline-block span{
+        font-size: 14px;
+    }
+
+    .w-10 { width: 10%; }
+    .w-15 { width: 10%; }
+    .w-17 { width: 17%; }
+    .w-18 { width: 18%; }
+    .w-19 { width: 19%; }
+    .w-20 { width: 20%; }
+    .w-23 { width: 23%; }
+    .w-24 { width: 24%; }
+    .w-25 { width: 25%; }
+    .w-27 { width: 27%; }
+    .w-28 { width: 28%; }
+    .w-29 { width: 29%; }
+    .w-30 { width: 30%; }
+    .w-40 { width: 40%; }
+    .w-45 { width: 45%; }
+    .w-47 { width: 47%; }
+    .w-48 { width: 48%; }
+    .w-49 { width: 49%; }
+    .w-50 { width: 50%; }
+    .w-55 { width: 55%; }
+    .w-60 { width: 60%; }
+    .w-70 { width: 70%; }
+    .w-78 { width: 78%; }
+    .w-80 { width: 80%; }
+    .w-80 { width: 80%; }
+    .w-90 { width: 90%; }
+    .w-100 { width: 100%; }
+
+    .h-10 { height: 10%; }
+    .h-20 { height: 20%; }
+    .h-30 { height: 30%; }
+    .h-40 { height: 40%; }
+    .h-50 { height: 50%; }
+    .h-60 { height: 60%; }
+    .h-70 { height: 70%; }
+    .h-80 { height: 80%; }
+    .h-90 { height: 90%; }
+    .h-100 { height: 100%; }
+
+    .text-left {
+        text-align: left;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .text-right {
+        text-align: right;
+    }
+    .text-justify {
+        text-align: justify;
+    }
+
+    .float-left {
+        float: left;
+    }
+    .float-right {
+        float: right;
+    }
+    .float-none {
+        float: none;
+    }
+
+    .d-block {
+        display: block;
+    }
+    .d-inline {
+        display: inline;
+    }
+    .d-inline-block {
+        display: inline-block;
+     
+    }
+    .d-none {
+        display: none;
+    }
+
+    .m-0 {
+        margin: 0;
+    }
+    .mt-0 {
+        margin-top: 0;
+    }
+    .mb-0 {
+        margin-bottom: 0;
+    }
+    .ml-0 {
+        margin-left: 0;
+    }
+    .mr-0 {
+        margin-right: 0;
+    }
+
+
+    /* ระยะขอบ 5px */
+    .m-5 {
+        margin: 5px;
+    }
+    .mt-5 {
+        margin-top: 5px;
+    }
+    .mb-5 {
+        margin-bottom: 5px;
+    }
+    .ml-5 {
+        margin-left: 5px;
+    }
+    .mr-5 {
+        margin-right: 5px;
+    }
+    
+    /* ระยะขอบ 10px */
+    .m-10 {
+        margin: 10px;
+    }
+    .mt-10 {
+        margin-top: 10px;
+    }
+    .mb-10 {
+        margin-bottom: 10px;
+    }
+    .ml-10 {
+        margin-left: 10px;
+    }
+    .mr-10 {
+        margin-right: 10px;
+    }
+
+    .p-0 {
+        padding: 0;
+    }
+    .pt-0 {
+        padding-top: 0;
+    }
+    .pb-0 {
+        padding-bottom: 0;
+    }
+    .pl-0 {
+        padding-left: 0;
+    }
+    .pr-0 {
+        padding-right: 0;
+    }
+
+    /* ระยะห่างภายใน 10px */
+    .p-10 {
+        padding: 10px;
+    }
+    .pt-10 {
+        padding-top: 10px;
+    }
+    .pb-10 {
+        padding-bottom: 10px;
+    }
+    .pl-10 {
+        padding-left: 10px;
+    }
+    .pr-10 {
+        padding-right: 10px;
+    }
+
+    .position-static {
+        position: static;
+    }
+    .position-relative {
+        position: relative;
+    }
+    .position-absolute {
+        position: absolute;
+    }
+    .position-fixed {
+        position: fixed;
+    }
+    .position-sticky {
+        position: sticky;
+    }
+
+
+
+    .lab-header{
+        position: relative;
+    }
+
+    .lab-header .main{
+        line-height: 20px;
+        display: block;
+        width: 100%;
+    }
+
+    .lab-header .request_no{
+        line-height: 20px;
+        display: block;
+        width: 100%;
+    }
+
+    .lab-header .report_header{
+        line-height: 20px;
+        display: inline;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px
+    }
+
+    .lab-header .report_objective{
+        line-height: 20px;
+        display: inline;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px
+    }
+
+    .topic_one{
+        display: inline;
+        width: 100%;
+    
+    }
+    .topic_two{
+        display: inline;
+        width: 100%;
+      
+    }
+
+    .topic_three{
+        display: inline;
+        width: 100%;
+      
+    }
+
+    .sign_area
+    {
+        margin-top: 40px;
+        display: block;
+        text-align: right;
+        width: 100%;
+    }
+
+    .lab-header .info{
+        display: block;
+        width: 100%;
+        /* background-color: brown */
+    }
+
+    .lab-header .info .col{
+        display: block;
+        width: 100%;
+        /* background-color: brown */
+    }
+
+    .lab-header .main .title{
+        font-size: 22px;
+        font-weight: bold !important;
+
+        
+    }
+
+    .lab-header .main .title_en{
+        font-size: 16px;
+        font-weight: bold !important;
+
+    }
+
+    .lab-header .main .cer_no{
+        font-size: 22px;
+      
+        
+    }
+
+    .lab-header .main .cer_no_en{
+        font-size: 16px;
+   
+    }
+
+    .indent-10 { text-indent: 10px; }
+    .indent-20 { text-indent: 20px; }
+    .indent-30 { text-indent: 30px; }
+    .indent-40 { text-indent: 40px; }
+    .indent-50 { text-indent: 50px; }
+    .indent-60 { text-indent: 60px; }
+    .indent-70 { text-indent: 70px; }
+    .indent-80 { text-indent: 80px; }
+    .indent-90 { text-indent: 90px; }
+    .indent-100 { text-indent: 100px; }
+
+  
+    .checkbox {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 10px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .checkbox.checked::after {
+        content: "✔";
+    }
+
+

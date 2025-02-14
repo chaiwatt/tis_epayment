@@ -1,0 +1,12 @@
+.blog-category-list{
+    font-size: 18px;
+	font-family: 'Kanit', Open Sans, sans-serif;
+
+}
+
+.blog-category-list li a{
+    text-decoration: none;
+    font-size: 18px;
+	font-family: 'Kanit', Open Sans, sans-serif;
+}
+

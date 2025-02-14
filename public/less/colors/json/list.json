@@ -1,0 +1,22 @@
+[
+	{"name": "bg-primary"},
+	{"name": "bg-success"},
+	{"name": "bg-info"},
+	{"name": "bg-warning"},
+	{"name": "bg-danger"},
+	{"name": "bg-white"},
+	{"name": "bg-dashboard1"},
+	{"name": "bg-pink"},
+	{"name": "bg-blue"},
+	{"name": "bg-green"},
+	{"name": "bg-violet"},
+	{"name": "bg-sky"},
+	{"name": "bg-yellow"},
+	{"name": "bg-dashboard2"},
+	{"name": "bg-dashboard3"},
+	{"name": "bg-dashboard4"},
+	{"name": "bg-dashboard5"},
+	{"name": "bg-dashboard6"},
+	{"name": "bg-dashboard7"},
+	{"name": "bg-dashboard8"}
+]
