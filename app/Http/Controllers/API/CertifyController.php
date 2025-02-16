@@ -375,11 +375,11 @@ $response['invoiceEndDate']   = Carbon::now()->addDays(30)->format('Y-m-d\TH:i:s
        $response = [];
 
        if(!empty($request->ref1)){
-        EpaymentBillTest::where('Ref1',$request->ref1)->update([
-          'Status' => 1
-        ]);
+          EpaymentBillTest::where('Ref1',$request->ref1)->update([
+            'Status' => 1
+          ]);
              $epays =  EpaymentBillTest::where('Ref1',$request->ref1)->get();
-       } else      if(!empty($request->paydate)){
+       } else if(!empty($request->paydate)){
              $epays =  EpaymentBillTest::whereDate('PaymentDate',$request->paydate)->where('Status',1)->get();
       } else{
             $epays =  EpaymentBillTest::whereDate('PaymentDate',date('Y-m-d'))->where('Status',1)->get();
